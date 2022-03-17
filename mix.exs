@@ -27,7 +27,7 @@ defmodule FFmpex.Mixfile do
     [
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false},
       {:jason, "~> 1.2"},
-      {:rambo, "~> 0.3.0"}
+      {:rambo, git: "https://github.com/myobie/rambo.git", branch: "aarch64-apple"}
     ]
   end
 
